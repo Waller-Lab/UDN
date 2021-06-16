@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-87339102-2"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-87339102-2');
+	</script>
+
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>Untrained Networks for Compressive Lensless Photography</title>
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link href="styles/minimal.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Navigation bar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container-nav">
+		<div class="container-fluid">
+    		<ul class="nav navbar-nav">
+      			<li class="nav-item active"><a href="index.html">Home</a></li>
+      			<li class="nav-item"><a href="gallery.html">Gallery</a></li>
+				<li class="nav-item"><a href="https://github.com/Waller-Lab/UDN">Code</a></li>
+				<li class="nav-item"><a href="https://doi.org/10.1364/OE.424075">Paper</a></li>
+    		</ul>
+      	</div>
+    </div>
+</nav>
+
+<div class="container">
+
+	<div class="row">
+		<h1><b>Untrained Networks for Compressive Lensless Photography</b></h1>
+		<h5><b><a href="https://kristinamonakhova.com/">Kristina Monakhova*</a>, <a href="https://www.linkedin.com/in/vi-tran-125230167/">Vi Tran*</a>, <a href = "https://grace-kuo.com/">Grace Kuo</a>, and <a href="http://www.laurawaller.com/">Laura Waller</a></b></h5>
+		<br />
+		<img class="center" src="resources/overview_fig_singlecol_website.jpg" style="width:700px">
+	</div>
+
+	<div class="row">
+		<h3><b>Abstract</b></h3>
+		<p>Compressive lensless imagers enable novel applications in an extremely compact
+device, requiring only a phase or amplitude mask placed close to the sensor. They have been
+demonstrated for 2D and 3D microscopy, single-shot video, and single-shot hyperspectral imaging;
+in each case, a compressive-sensing-based inverse problem is solved in order to recover a 3D
+data-cube from a 2D measurement. Typically, this is accomplished using convex optimization
+and hand-picked priors. Alternatively, deep learning-based reconstruction methods offer the
+promise of better priors, but require many thousands of ground truth training pairs, which can
+be difficult or impossible to acquire. In this work, we propose an unsupervised approach based
+on untrained networks for compressive image recovery. Our approach does not require any
+labeled training data, but instead uses the measurement itself to update the network weights. We
+demonstrate our untrained approach on lensless compressive 2D imaging, single-shot high-speed
+video recovery using the camera’s rolling shutter, and single-shot hyperspectral imaging. We
+provide simulation and experimental verification, showing that our method results in improved
+image quality over existing methods.</p>
+		</div>
+
+<!--
+	<div class="row">
+		<h3><b>Overview Video</b></h3>
+		<iframe width="660" height="415"
+src="https://www.youtube.com/embed/ReH0x_W3glM">
+</iframe>
+</div>-->
+
+	<div class="row">
+		<h3><b>Resources</b></h3>
+		<ul>
+			<li>Open source code: <b><a href="https://github.com/Waller-Lab/UDN">here</a></b></li>
+			<li>Paper in Optics Express: <b><a href="https://doi.org/10.1364/OE.424075">here</a></b></li>
+			<li>Spectral DiffuserCam <b><a href="https://github.com/Waller-Lab/SpectralDiffuserCam">code</a></b> and <b><a href="https://waller-lab.github.io/SpectralDiffuserCam/">project page</a></b> </li>
+			<!-- <li><b><a href="gallery.html">Gallery</a></b> of reconstructions</li>-->
+		</ul>
+	</div>
+
+
+
+</body>
+</html>
