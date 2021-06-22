@@ -1,0 +1,14 @@
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+__pycache__/
+ipython_config.py
+
+.python-version
+*.png
+*.jpg
+*.jpeg
+*.tiff
+*.npy 
+/data/single_shot_video/*
+/data/single_shot_hyperspectral/*
+/data/2d_imaging/*

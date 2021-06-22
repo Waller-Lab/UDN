@@ -1,0 +1,10 @@
+name: UDN
+channels:
+  - defaults
+dependencies:
+  - python=3.6
+  - anaconda
+  - torchvision
+  - pytorch=1.6.0
+  - cudatoolkit=10.2
+
