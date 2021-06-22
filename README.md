@@ -58,8 +58,8 @@ Please place the downloaded data in the data folder, as specified above.
 
 The following jupyter notebook demos are provided:
 
-* Demo_2D_erasures.ipynb - contains example UDN reconstructions for 2D imaging with added erasures using simulated or experimental data
-* Demo_single_shot_video.ipynb - contains example reconstructions for recovering video from a single image using UDN, both in simulation and experiment
-* Demo_single_shot_hyperspectral.ipynb - contains example reconstructions for recovering hyperspectral volumes from a single image using UDN, both in simulation and experiment
+* [Demo_2D_erasures.ipynb](https://github.com/Waller-Lab/UDN/blob/main/Demo_2D_erasures.ipynb) - contains example UDN reconstructions for 2D imaging with added erasures using simulated or experimental data
+* [Demo_single_shot_video.ipynb](https://github.com/Waller-Lab/UDN/blob/main/Demo_single_shot_video.ipynb) - contains example reconstructions for recovering video from a single image using UDN, both in simulation and experiment
+* [Demo_single_shot_hyperspectral.ipynb](https://github.com/Waller-Lab/UDN/blob/main/Demo_single_shot_hyperspectral.ipynb) - contains example reconstructions for recovering hyperspectral volumes from a single image using UDN, both in simulation and experiment
 
 This code requires a GPU to run. 
